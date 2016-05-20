@@ -1,0 +1,3 @@
+[submodule "MobrandCore"]
+	path = MobrandCore
+	url = https://github.com/mobrandtech/mobrand-ios-private.git
