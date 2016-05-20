@@ -445,7 +445,7 @@
 		D55669F01CE5EC3500A375A4 /* ThreadWithTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadWithTask.swift; sourceTree = "<group>"; };
 		D55CE2D81CECC91400A0420B /* Ad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
 		D55CE2DA1CECCAC400A0420B /* AppWallController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppWallController.swift; sourceTree = "<group>"; };
-		D55F15161CEE246F001459ED /* BuilderMobrandCoreFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuilderMobrandCoreFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55F15161CEE246F001459ED /* BuilderMobrandFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuilderMobrandFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55F15181CEE246F001459ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D55F151A1CEE246F001459ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D55F151D1CEE246F001459ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -724,7 +724,7 @@
 				D53BAF261CE23D050042DAB8 /* MobrandAppWall.framework */,
 				D53BB0221CE2503C0042DAB8 /* SwiftIntegration.app */,
 				D500CD231CE9EE9000782096 /* Simplyred.framework */,
-				D55F15161CEE246F001459ED /* BuilderMobrandCoreFramework.app */,
+				D55F15161CEE246F001459ED /* BuilderMobrandFramework.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1127,9 +1127,9 @@
 			productReference = D53BB0221CE2503C0042DAB8 /* SwiftIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D55F15151CEE246F001459ED /* BuilderMobrandCoreFramework */ = {
+		D55F15151CEE246F001459ED /* BuilderMobrandFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D55F15251CEE246F001459ED /* Build configuration list for PBXNativeTarget "BuilderMobrandCoreFramework" */;
+			buildConfigurationList = D55F15251CEE246F001459ED /* Build configuration list for PBXNativeTarget "BuilderMobrandFramework" */;
 			buildPhases = (
 				F4B78430755EEE9B9F274B57 /* 📦 Check Pods Manifest.lock */,
 				D55F15121CEE246F001459ED /* Sources */,
@@ -1145,9 +1145,9 @@
 				D55F152E1CEE2480001459ED /* PBXTargetDependency */,
 				D55F152B1CEE247A001459ED /* PBXTargetDependency */,
 			);
-			name = BuilderMobrandCoreFramework;
+			name = BuilderMobrandFramework;
 			productName = BuilderMobrandCoreFramework;
-			productReference = D55F15161CEE246F001459ED /* BuilderMobrandCoreFramework.app */;
+			productReference = D55F15161CEE246F001459ED /* BuilderMobrandFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1180,7 +1180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D53BAF0E1CE23C000042DAB8 /* Build configuration list for PBXProject "MobrandCore" */;
+			buildConfigurationList = D53BAF0E1CE23C000042DAB8 /* Build configuration list for PBXProject "Mobrand" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1198,7 +1198,7 @@
 				D500CD221CE9EE9000782096 /* Simplyred */,
 				D53BB0211CE2503C0042DAB8 /* SwiftIntegration */,
 				D55F150B1CEE1D3C001459ED /* UniversalMobrandCore */,
-				D55F15151CEE246F001459ED /* BuilderMobrandCoreFramework */,
+				D55F15151CEE246F001459ED /* BuilderMobrandFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -2014,7 +2014,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D53BAF0E1CE23C000042DAB8 /* Build configuration list for PBXProject "MobrandCore" */ = {
+		D53BAF0E1CE23C000042DAB8 /* Build configuration list for PBXProject "Mobrand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D53BAF1A1CE23C000042DAB8 /* Debug */,
@@ -2059,7 +2059,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D55F15251CEE246F001459ED /* Build configuration list for PBXNativeTarget "BuilderMobrandCoreFramework" */ = {
+		D55F15251CEE246F001459ED /* Build configuration list for PBXNativeTarget "BuilderMobrandFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D55F15261CEE246F001459ED /* Debug */,

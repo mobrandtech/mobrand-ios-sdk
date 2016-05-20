@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D55F15151CEE246F001459ED"
-               BuildableName = "BuilderMobrandCoreFramework.app"
-               BlueprintName = "BuilderMobrandCoreFramework"
-               ReferencedContainer = "container:MobrandCore.xcodeproj">
+               BlueprintIdentifier = "D53BAF251CE23D050042DAB8"
+               BuildableName = "MobrandAppWall.framework"
+               BlueprintName = "MobrandAppWall"
+               ReferencedContainer = "container:Mobrand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F15151CEE246F001459ED"
-            BuildableName = "BuilderMobrandCoreFramework.app"
-            BlueprintName = "BuilderMobrandCoreFramework"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F15151CEE246F001459ED"
-            BuildableName = "BuilderMobrandCoreFramework.app"
-            BlueprintName = "BuilderMobrandCoreFramework"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D53BAF251CE23D050042DAB8"
+            BuildableName = "MobrandAppWall.framework"
+            BlueprintName = "MobrandAppWall"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F15151CEE246F001459ED"
-            BuildableName = "BuilderMobrandCoreFramework.app"
-            BlueprintName = "BuilderMobrandCoreFramework"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D53BAF251CE23D050042DAB8"
+            BuildableName = "MobrandAppWall.framework"
+            BlueprintName = "MobrandAppWall"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D55F14EF1CEDF238001459ED"
-               BuildableName = "libTestt.a"
-               BlueprintName = "Testt"
-               ReferencedContainer = "container:MobrandCore.xcodeproj">
+               BlueprintIdentifier = "D55F150B1CEE1D3C001459ED"
+               BuildableName = "UniversalMobrandCore"
+               BlueprintName = "UniversalMobrandCore"
+               ReferencedContainer = "container:Mobrand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F14EF1CEDF238001459ED"
-            BuildableName = "libTestt.a"
-            BlueprintName = "Testt"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D55F150B1CEE1D3C001459ED"
+            BuildableName = "UniversalMobrandCore"
+            BlueprintName = "UniversalMobrandCore"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F14EF1CEDF238001459ED"
-            BuildableName = "libTestt.a"
-            BlueprintName = "Testt"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D55F150B1CEE1D3C001459ED"
+            BuildableName = "UniversalMobrandCore"
+            BlueprintName = "UniversalMobrandCore"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

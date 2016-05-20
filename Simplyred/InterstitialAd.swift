@@ -12,7 +12,7 @@ import MobrandCore
 class InterstitialAd{
     var adid: String!
     var icon: String!
-    var name: String!
+    var name: String! 
     var category: Int!
     var packageName: String!
     var impressed: Bool = false

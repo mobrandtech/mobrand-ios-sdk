@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D55F14FC1CEDF26B001459ED"
-               BuildableName = "libTest.a"
-               BlueprintName = "Test"
-               ReferencedContainer = "container:MobrandCore.xcodeproj">
+               BlueprintIdentifier = "D55F15151CEE246F001459ED"
+               BuildableName = "BuilderMobrandFramework.app"
+               BlueprintName = "BuilderMobrandFramework"
+               ReferencedContainer = "container:Mobrand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D55F15151CEE246F001459ED"
+            BuildableName = "BuilderMobrandFramework.app"
+            BlueprintName = "BuilderMobrandFramework"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F14FC1CEDF26B001459ED"
-            BuildableName = "libTest.a"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D55F15151CEE246F001459ED"
+            BuildableName = "BuilderMobrandFramework.app"
+            BlueprintName = "BuilderMobrandFramework"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F14FC1CEDF26B001459ED"
-            BuildableName = "libTest.a"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D55F15151CEE246F001459ED"
+            BuildableName = "BuilderMobrandFramework.app"
+            BlueprintName = "BuilderMobrandFramework"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

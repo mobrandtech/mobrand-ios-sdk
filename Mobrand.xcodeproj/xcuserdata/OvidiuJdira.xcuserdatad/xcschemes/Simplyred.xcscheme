@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D53BAF131CE23C000042DAB8"
-               BuildableName = "MobrandCore.framework"
-               BlueprintName = "MobrandCore"
-               ReferencedContainer = "container:MobrandCore.xcodeproj">
+               BlueprintIdentifier = "D500CD221CE9EE9000782096"
+               BuildableName = "Simplyred.framework"
+               BlueprintName = "Simplyred"
+               ReferencedContainer = "container:Mobrand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D53BAF131CE23C000042DAB8"
-            BuildableName = "MobrandCore.framework"
-            BlueprintName = "MobrandCore"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D500CD221CE9EE9000782096"
+            BuildableName = "Simplyred.framework"
+            BlueprintName = "Simplyred"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D53BAF131CE23C000042DAB8"
-            BuildableName = "MobrandCore.framework"
-            BlueprintName = "MobrandCore"
-            ReferencedContainer = "container:MobrandCore.xcodeproj">
+            BlueprintIdentifier = "D500CD221CE9EE9000782096"
+            BuildableName = "Simplyred.framework"
+            BlueprintName = "Simplyred"
+            ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
