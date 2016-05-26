@@ -1,0 +1,10 @@
+framework module MobrandCore {
+  umbrella header "MobrandCore.h"
+
+  export *
+  module * { export * }
+}
+
+module MobrandCore.Swift {
+    header "MobrandCore-Swift.h"
+}
