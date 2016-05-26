@@ -4,27 +4,27 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "0716E79FD9DC997B82881B9AB26142AAEAF9854B" : 0,
+    "EEA8910BFDB6CB8E107D288AFE406BE04EC6C731" : 0,
     "6BA6A7D225C71B33AA7C7C392A507A2F506C8218" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DE4C8EEB-F81D-4294-8DC0-6AE6E9CA9732",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7C4878C0-6776-444D-A7FD-225B40AEE527",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "0716E79FD9DC997B82881B9AB26142AAEAF9854B" : "MobrandCore\/MobrandCore\/",
-    "6BA6A7D225C71B33AA7C7C392A507A2F506C8218" : "MobrandCore\/"
+    "EEA8910BFDB6CB8E107D288AFE406BE04EC6C731" : "MobrandCore\/",
+    "6BA6A7D225C71B33AA7C7C392A507A2F506C8218" : "Mobrand\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Mobrand",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mobrand.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mobrandtech\/mobrand-ios-private.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0716E79FD9DC997B82881B9AB26142AAEAF9854B"
-    },
-    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mobrandtech\/mobrand-ios-sdk.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6BA6A7D225C71B33AA7C7C392A507A2F506C8218"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mobrandtech\/mobrand-ios-private.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEA8910BFDB6CB8E107D288AFE406BE04EC6C731"
     }
   ]
 }

@@ -8,25 +8,18 @@
 
 import UIKit
 
-class MobrandAppWallSectionNameViewCell: UITableViewCell {
+public class MobrandAppWallSectionNameViewCell: UITableViewCell {
 
     @IBOutlet weak var txtTitle: UILabel!
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         backgroundColor = UIColor(rgba: AppWallColors.APP_WALL_BG)
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
+    override public func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
  }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        txtTitle.setNeedsLayout()
-        txtTitle.layoutIfNeeded()
-    }
-
     
     func modelChange(title: String){
         txtTitle.text = title

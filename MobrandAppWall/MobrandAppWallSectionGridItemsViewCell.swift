@@ -42,24 +42,24 @@ class ViewCellUtils {
 }
 
 
-class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectionViewDataSource, UICollectionViewDelegate {
+public class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var gridView: UICollectionView!
     let cellIdentifier = "GridItemViewCell"
     var ads: [AppWallAd] =  [AppWallAd]()
     var progressBarColor: UIColor!
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         gridView.delegate = self
         gridView.dataSource = self
         backgroundColor = UIColor(rgba: AppWallColors.APP_WALL_BG)
-        let frameworkBundle = NSBundle(forClass: MobrandAppWallSectionGridItemsViewCell.self)
+        let frameworkBundle = BundleUtils.getBundle()
         self.gridView.registerNib(UINib(nibName: cellIdentifier, bundle: frameworkBundle), forCellWithReuseIdentifier: cellIdentifier)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(AppWallContentViewController.rotated), name: UIDeviceOrientationDidChangeNotification, object: nil)
     }
     
-    override func setSelected(selected: Bool, animated: Bool) {
+    override public func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
     
@@ -78,15 +78,15 @@ class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectionViewDa
 //        gridView.reloadData()
     }
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    public func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return ads.count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
          let cell : GridItemViewCell = collectionView.dequeueReusableCellWithReuseIdentifier(self.cellIdentifier, forIndexPath: indexPath) as! GridItemViewCell
          let item: AppWallAd = self.ads[indexPath.row]
          cell.modelChange(item, progresBarColor: self.progressBarColor)
@@ -94,7 +94,7 @@ class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectionViewDa
     }
     
     
-    func collectionView(collectionView: UICollectionView, willDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
+    public func collectionView(collectionView: UICollectionView, willDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
 //         CellAnimator.animateCell(cell, withTransform: CellAnimator.TransformTilt, andDuration: 1)
     }
     
@@ -102,7 +102,7 @@ class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectionViewDa
         return ViewCellUtils.sharedInstance.colectionViewSize
     }
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    public func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
     }
     
     

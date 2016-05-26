@@ -9,7 +9,7 @@
 import UIKit
 import MobrandCore
 
-class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
+public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
     var ad: AppWallAd!
     let myCache = ImageCache(name: "MobrandAppWall")
     @IBOutlet weak var txtTitle: UILabel!
@@ -17,10 +17,10 @@ class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
     @IBOutlet weak var progressBar: UIProgressView!
     var webView: UIWebView!
     var progressBarTimer:NSTimer!
-    let mobrandCore = MobrandCore.getMobrandCoreInstance("UeEOB063TaC_-BlZsAF-RA")
+    let mobrandCore =  MobrandCore.getInstance()
     
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(GridItemViewCell.onClick(_:)))
         self.addGestureRecognizer(tapGestureRecognizer)
@@ -70,10 +70,10 @@ class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
         layer.cornerRadius = 5.0
     }
     
-    func  onMobrandClickReady() {
+    public func  onMobrandClickReady() {
         progressBar.hidden = true
     }
-    func onMobrandClickError(error: String) {
+    public func onMobrandClickError(error: String) {
         progressBar.hidden = true
     }
     

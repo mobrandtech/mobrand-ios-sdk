@@ -17,7 +17,6 @@ class AppWallContentViewController: UIViewController, UITableViewDataSource, UIT
     let sectionNameIdentifier = "MobrandAppWallSectionNameViewCell"
     let sectionGridItemsIdentifier = "MobrandAppWallSectionGridItemsViewCell"
     let appWallBrandViewCellIdentifier = "AppWallBrandViewCell"
-    var cells: [Int: UITableViewCell] = [Int: UITableViewCell]()
     var cellSectionSize: [Int: Int] = [Int: Int]()
     
     override func viewDidLoad() {
@@ -51,26 +50,10 @@ class AppWallContentViewController: UIViewController, UITableViewDataSource, UIT
     
     func registerNib(){
         tableView.rowHeight = UITableViewAutomaticDimension
-        let frameworkBundle = NSBundle(forClass: AppWallContentViewController.self)
+        let frameworkBundle = BundleUtils.getBundle()
         tableView.registerNib(UINib(nibName: sectionNameIdentifier, bundle: frameworkBundle), forCellReuseIdentifier: sectionNameIdentifier)
         tableView.registerNib(UINib(nibName: sectionGridItemsIdentifier, bundle: frameworkBundle), forCellReuseIdentifier: sectionGridItemsIdentifier)
         tableView.registerNib(UINib(nibName: appWallBrandViewCellIdentifier, bundle: frameworkBundle), forCellReuseIdentifier: appWallBrandViewCellIdentifier)
-    }
-    
-    private func initNibs(){
-            let frameworkBundle = NSBundle(forClass: AppWallContentViewController.self)
-            for i in 0 ..< (self.pageModel.sections.count * 2) {
-                let sectionModel: SectionModel = self.pageModel.sections[i / 2]!
-                if(i % 2 == 0){
-                    let cell = UINib(nibName: self.sectionNameIdentifier,bundle: frameworkBundle).instantiateWithOwner(nil, options: nil)[0] as! MobrandAppWallSectionNameViewCell
-                    cell.modelChange(sectionModel.title)
-                    self.cells.updateValue(cell, forKey: i)
-                } else {
-                    let cell = UINib(nibName: self.sectionGridItemsIdentifier,bundle: frameworkBundle).instantiateWithOwner(nil, options: nil)[0] as! MobrandAppWallSectionGridItemsViewCell
-                    cell.modelChange(sectionModel.list, progressBarColor: self.getProgresBarColor())
-                    self.cells.updateValue(cell, forKey: i)
-                }
-            }
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -84,9 +67,6 @@ class AppWallContentViewController: UIViewController, UITableViewDataSource, UIT
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let row = indexPath.row
         if(row < pageModel.sections.count * 2) {
-            if let cell = self.cells[row] {
-                return cell
-            }
             
             let sectionModel: SectionModel = pageModel.sections[row / 2]!
             if(row % 2 == 0){

@@ -12,7 +12,14 @@ s.social_media_url = 'https://www.facebook.com/olamobi/'
 s.platform     = :ios, "8.1"
 s.ios.deployment_target = "8.1"
 s.source       = { :git => "https://github.com/mobrandtech/mobrand-ios-sdk.git", :tag => "0.0.1" }
-s.source_files  = "MobrandAppWall"
-s.dependency 'jdjCore' 
+#s.source_files  = "MobrandAppWall"
+s.source_files = 'MobrandAppWall/*.{swift}'
+s.dependency 'jdjCore'
+s.frameworks = 'CFNetwork'
 s.requires_arc = true
+
+s.resource_bundles = {
+'MobrandAppWall' => ['MobrandAppWall/*.{xib,png}']
+}
+
 end

@@ -28,7 +28,7 @@ class AppWallViewController: UIViewController, AppWallAdsDelegate,  UIPageViewCo
     var willTransitionToPosition: Int = 0
     var pageViewController : UIPageViewController!
     let modelContainer: UiObjModelContainer = UiObjModelContainer()
-    let mobrandCore = MobrandCore.getMobrandCoreInstance("UeEOB063TaC_-BlZsAF-RA")
+    let mobrandCore = MobrandCore.getInstance()
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)

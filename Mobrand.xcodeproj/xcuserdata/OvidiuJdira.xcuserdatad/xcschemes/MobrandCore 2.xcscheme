@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D55F14EF1CEDF238001459ED"
-               BuildableName = "libTestt.a"
-               BlueprintName = "Testt"
+               BlueprintIdentifier = "D53BAF131CE23C000042DAB8"
+               BuildableName = "MobrandCore.framework"
+               BlueprintName = "MobrandCore"
                ReferencedContainer = "container:Mobrand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F14EF1CEDF238001459ED"
-            BuildableName = "libTestt.a"
-            BlueprintName = "Testt"
+            BlueprintIdentifier = "D53BAF131CE23C000042DAB8"
+            BuildableName = "MobrandCore.framework"
+            BlueprintName = "MobrandCore"
             ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D55F14EF1CEDF238001459ED"
-            BuildableName = "libTestt.a"
-            BlueprintName = "Testt"
+            BlueprintIdentifier = "D53BAF131CE23C000042DAB8"
+            BuildableName = "MobrandCore.framework"
+            BlueprintName = "MobrandCore"
             ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

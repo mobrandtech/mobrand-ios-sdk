@@ -1,3 +1,15 @@
-PODFILE CHECKSUM: 9b44ecc9654bca459d77406fdfa96eb0123895a7
+PODS:
+  - Cosmos (1.2.2)
+  - jdjCore (0.0.6)
+
+DEPENDENCIES:
+  - Cosmos (~> 1.2)
+  - jdjCore
+
+SPEC CHECKSUMS:
+  Cosmos: 87c49100c69d2cb2eebfa4eb8d1e801fe29ff774
+  jdjCore: 49786a6a1c07bc9c3fd66aae16b2be6b84192306
+
+PODFILE CHECKSUM: c1fbb4d359fa7e6c37cb3fba5b187239b741173b
 
 COCOAPODS: 1.0.0

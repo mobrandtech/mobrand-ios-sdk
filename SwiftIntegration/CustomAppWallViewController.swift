@@ -14,7 +14,7 @@ class CustomAppWallViewController: UIViewController, UITableViewDataSource, UITa
     let identifier = "CustomAppWallViewCell"
     @IBOutlet weak var tableView: UITableView!
     var nativeAds: Ads = Ads()
-    let mobrandCore = MobrandCore.getMobrandCoreInstance("UeEOB063TaC_-BlZsAF-RA")
+    let mobrandCore =  MobrandCore.getInstance()
     
     override func viewDidLoad() {
         super.viewDidLoad()

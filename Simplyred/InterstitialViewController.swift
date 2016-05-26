@@ -18,12 +18,13 @@ class InterstitialViewController: UIViewController, MobrandInterstitialDelegate,
     @IBOutlet weak var txtCategory: UILabel!
     @IBOutlet weak var txtDescriptionLabel: UILabel!
     
+    @IBOutlet weak var container: UIView!
     @IBOutlet weak var infoContainer: UIView!
     @IBOutlet weak var imgStoreLogo: UIImageView!
     @IBOutlet weak var txtDescription: UITextView!
     var imageBg: UIImageView!
     
-    let mobrandCore = MobrandCore.getMobrandCoreInstance("UeEOB063TaC_-BlZsAF-RA")
+    let mobrandCore =  MobrandCore.getInstance()
     var interstitialAd: InterstitialAd!
     
     override func viewDidLoad() {
@@ -71,6 +72,7 @@ class InterstitialViewController: UIViewController, MobrandInterstitialDelegate,
     func requestItems(){
         if(interstitialAd == nil ){
 //            txtErrorMessage.hidden = true
+            container.hidden = true
             mobrandCore.getInterstitialAdsAsync("Interstitial", delegate: self)
             LoadingOverlay.shared.showOverlay(self.view)
         }
@@ -90,6 +92,7 @@ class InterstitialViewController: UIViewController, MobrandInterstitialDelegate,
         imageBg.frame.size.width = infoContainer.frame.width
         LoadingOverlay.shared.hideOverlayView()
         addImpression()
+        container.hidden = false
     }
     func onInterstitialFailure(){
         

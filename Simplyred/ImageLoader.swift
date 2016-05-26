@@ -51,6 +51,6 @@ class ImageLoader {
             }
             downloadTask.resume()
         })
-        
+
     }
 }

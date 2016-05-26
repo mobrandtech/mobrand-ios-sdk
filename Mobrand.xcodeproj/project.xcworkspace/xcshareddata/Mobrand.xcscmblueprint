@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6BA6A7D225C71B33AA7C7C392A507A2F506C8218",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0716E79FD9DC997B82881B9AB26142AAEAF9854B" : 0,
+    "6BA6A7D225C71B33AA7C7C392A507A2F506C8218" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "725B0770-7E3A-42ED-90D3-E811B6F4C413",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0716E79FD9DC997B82881B9AB26142AAEAF9854B" : "MobrandCore\/MobrandCore\/",
+    "6BA6A7D225C71B33AA7C7C392A507A2F506C8218" : "MobrandCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mobrand",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mobrand.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mobrandtech\/mobrand-ios-private.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0716E79FD9DC997B82881B9AB26142AAEAF9854B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mobrandtech\/mobrand-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6BA6A7D225C71B33AA7C7C392A507A2F506C8218"
+    }
+  ]
+}

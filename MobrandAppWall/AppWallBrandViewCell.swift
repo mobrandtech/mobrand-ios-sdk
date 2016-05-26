@@ -8,15 +8,15 @@
 
 import UIKit
 
-class AppWallBrandViewCell: UITableViewCell {
+public class AppWallBrandViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
 //        backgroundColor = UIColor(rgba: AppWallColors.APP_WALL_BG)
         // Initialization code
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
+    override public func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
