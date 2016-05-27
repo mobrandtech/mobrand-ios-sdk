@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103B0B34C62A68600223205F /* Pods_MobrandInterstitialSimplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C400E4BDCA19560F1BCAF6CF /* Pods_MobrandInterstitialSimplyred.framework */; };
 		767D425B3163CC64BBFC1B92 /* Pods_Simplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B3D54CDCFCFF0215FF0974 /* Pods_Simplyred.framework */; };
 		BDBF1B1285180679CE293AA7 /* Pods_SwiftIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9826F2062C98EC7DDBE2827F /* Pods_SwiftIntegration.framework */; };
 		D500CD0A1CE9D05300782096 /* ic_apple_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = D500CD091CE9D05300782096 /* ic_apple_logo_black.png */; };
 		D500CD1A1CE9DDC100782096 /* ic_action_arrow_app_wall_mobrand.png in Resources */ = {isa = PBXBuildFile; fileRef = D500CD191CE9DDC100782096 /* ic_action_arrow_app_wall_mobrand.png */; };
 		D500CD1C1CE9DE5800782096 /* ic_action_games_app_wall_mobrand.png in Resources */ = {isa = PBXBuildFile; fileRef = D500CD1B1CE9DE5800782096 /* ic_action_games_app_wall_mobrand.png */; };
 		D500CD261CE9EE9000782096 /* Simplyred.h in Headers */ = {isa = PBXBuildFile; fileRef = D500CD251CE9EE9000782096 /* Simplyred.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D500CD2A1CE9EE9000782096 /* Simplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500CD231CE9EE9000782096 /* Simplyred.framework */; };
-		D500CD2B1CE9EE9000782096 /* Simplyred.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D500CD231CE9EE9000782096 /* Simplyred.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D500CD2A1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */; };
+		D500CD2B1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D500CD381CEA12DE00782096 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D500CD361CEA12DE00782096 /* InterstitialViewController.swift */; };
 		D500CD391CEA12DE00782096 /* InterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D500CD371CEA12DE00782096 /* InterstitialViewController.xib */; };
 		D51801C51CEB779D00F3AA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51801C41CEB779D00F3AA8D /* Images.xcassets */; };
@@ -110,7 +111,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D53BB0391CE2504E0042DAB8 /* MobrandAppWall.framework in Embed Frameworks */,
-				D500CD2B1CE9EE9000782096 /* Simplyred.framework in Embed Frameworks */,
+				D500CD2B1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,16 +119,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B339D02C2036C5A9E687FF9 /* Pods-MobrandInterstitialSimplyred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobrandInterstitialSimplyred.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobrandInterstitialSimplyred/Pods-MobrandInterstitialSimplyred.debug.xcconfig"; sourceTree = "<group>"; };
 		236926F78F37958C8FE08EBE /* Pods-Simplyred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplyred.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simplyred/Pods-Simplyred.release.xcconfig"; sourceTree = "<group>"; };
 		36B3D54CDCFCFF0215FF0974 /* Pods_Simplyred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simplyred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E01956823E583DAB299DAAD /* Pods-Simplyred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplyred.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simplyred/Pods-Simplyred.debug.xcconfig"; sourceTree = "<group>"; };
 		73B2BE4981480D2495CD922D /* Pods-MobrandAppWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobrandAppWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobrandAppWall/Pods-MobrandAppWall.debug.xcconfig"; sourceTree = "<group>"; };
 		9195C2414A977F9AFC81A180 /* Pods-MobrandAppWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobrandAppWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobrandAppWall/Pods-MobrandAppWall.release.xcconfig"; sourceTree = "<group>"; };
 		9826F2062C98EC7DDBE2827F /* Pods_SwiftIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C400E4BDCA19560F1BCAF6CF /* Pods_MobrandInterstitialSimplyred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobrandInterstitialSimplyred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DCBB3AF5B0DFF4D4C2433D /* Pods-MobrandInterstitialSimplyred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobrandInterstitialSimplyred.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobrandInterstitialSimplyred/Pods-MobrandInterstitialSimplyred.release.xcconfig"; sourceTree = "<group>"; };
 		D500CD091CE9D05300782096 /* ic_apple_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_apple_logo_black.png; sourceTree = "<group>"; };
 		D500CD191CE9DDC100782096 /* ic_action_arrow_app_wall_mobrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_arrow_app_wall_mobrand.png; sourceTree = "<group>"; };
 		D500CD1B1CE9DE5800782096 /* ic_action_games_app_wall_mobrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_games_app_wall_mobrand.png; sourceTree = "<group>"; };
-		D500CD231CE9EE9000782096 /* Simplyred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Simplyred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobrandInterstitialSimplyred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D500CD251CE9EE9000782096 /* Simplyred.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simplyred.h; sourceTree = "<group>"; };
 		D500CD271CE9EE9000782096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D500CD361CEA12DE00782096 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +214,7 @@
 				D5DE85861CF70F5E00E4A151 /* CFNetwork.framework in Frameworks */,
 				D5BF7BA51CF337F700DB7935 /* Foundation.framework in Frameworks */,
 				767D425B3163CC64BBFC1B92 /* Pods_Simplyred.framework in Frameworks */,
+				103B0B34C62A68600223205F /* Pods_MobrandInterstitialSimplyred.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53BB0381CE2504E0042DAB8 /* MobrandAppWall.framework in Frameworks */,
-				D500CD2A1CE9EE9000782096 /* Simplyred.framework in Frameworks */,
+				D500CD2A1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Frameworks */,
 				BDBF1B1285180679CE293AA7 /* Pods_SwiftIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +250,8 @@
 				236926F78F37958C8FE08EBE /* Pods-Simplyred.release.xcconfig */,
 				FD104DA8CF7B58F0A11E4B39 /* Pods-SwiftIntegration.debug.xcconfig */,
 				FFD27B1E36B92242B2D7CBB8 /* Pods-SwiftIntegration.release.xcconfig */,
+				1B339D02C2036C5A9E687FF9 /* Pods-MobrandInterstitialSimplyred.debug.xcconfig */,
+				C8DCBB3AF5B0DFF4D4C2433D /* Pods-MobrandInterstitialSimplyred.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -256,11 +263,12 @@
 				FC383E9CF4FF2951AD52E6D9 /* Pods_MobrandAppWall.framework */,
 				36B3D54CDCFCFF0215FF0974 /* Pods_Simplyred.framework */,
 				9826F2062C98EC7DDBE2827F /* Pods_SwiftIntegration.framework */,
+				C400E4BDCA19560F1BCAF6CF /* Pods_MobrandInterstitialSimplyred.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D500CD241CE9EE9000782096 /* Simplyred */ = {
+		D500CD241CE9EE9000782096 /* MobrandInterstitialSimplyred */ = {
 			isa = PBXGroup;
 			children = (
 				D5C0D0B91CEA25F100B44A5C /* Model */,
@@ -271,6 +279,7 @@
 				D500CD271CE9EE9000782096 /* Info.plist */,
 				D5C8FEA91CEA1396000DEBDB /* MobrandInterstitialFactory.swift */,
 			);
+			name = MobrandInterstitialSimplyred;
 			path = Simplyred;
 			sourceTree = "<group>";
 		};
@@ -291,7 +300,7 @@
 			children = (
 				D53BAF1F1CE23C220042DAB8 /* Foundation.framework */,
 				D53BAF271CE23D050042DAB8 /* MobrandAppWall */,
-				D500CD241CE9EE9000782096 /* Simplyred */,
+				D500CD241CE9EE9000782096 /* MobrandInterstitialSimplyred */,
 				D53BB0231CE2503C0042DAB8 /* SwiftIntegration */,
 				D53BAF151CE23C000042DAB8 /* Products */,
 				4A689DA8090702F46ECAEB94 /* Pods */,
@@ -304,7 +313,7 @@
 			children = (
 				D53BAF261CE23D050042DAB8 /* MobrandAppWall.framework */,
 				D53BB0221CE2503C0042DAB8 /* SwiftIntegration.app */,
-				D500CD231CE9EE9000782096 /* Simplyred.framework */,
+				D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -498,9 +507,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D500CD221CE9EE9000782096 /* Simplyred */ = {
+		D500CD221CE9EE9000782096 /* MobrandInterstitialSimplyred */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D500CD2C1CE9EE9000782096 /* Build configuration list for PBXNativeTarget "Simplyred" */;
+			buildConfigurationList = D500CD2C1CE9EE9000782096 /* Build configuration list for PBXNativeTarget "MobrandInterstitialSimplyred" */;
 			buildPhases = (
 				5082876B2CB905F277854F54 /* 📦 Check Pods Manifest.lock */,
 				D500CD1E1CE9EE9000782096 /* Sources */,
@@ -513,9 +522,9 @@
 			);
 			dependencies = (
 			);
-			name = Simplyred;
+			name = MobrandInterstitialSimplyred;
 			productName = Simplyred;
-			productReference = D500CD231CE9EE9000782096 /* Simplyred.framework */;
+			productReference = D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D53BAF251CE23D050042DAB8 /* MobrandAppWall */ = {
@@ -599,7 +608,7 @@
 			projectRoot = "";
 			targets = (
 				D53BAF251CE23D050042DAB8 /* MobrandAppWall */,
-				D500CD221CE9EE9000782096 /* Simplyred */,
+				D500CD221CE9EE9000782096 /* MobrandInterstitialSimplyred */,
 				D53BB0211CE2503C0042DAB8 /* SwiftIntegration */,
 			);
 		};
@@ -752,7 +761,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simplyred/Pods-Simplyred-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobrandInterstitialSimplyred/Pods-MobrandInterstitialSimplyred-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -827,7 +836,7 @@
 /* Begin PBXTargetDependency section */
 		D500CD291CE9EE9000782096 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D500CD221CE9EE9000782096 /* Simplyred */;
+			target = D500CD221CE9EE9000782096 /* MobrandInterstitialSimplyred */;
 			targetProxy = D500CD281CE9EE9000782096 /* PBXContainerItemProxy */;
 		};
 		D53BB03B1CE2504E0042DAB8 /* PBXTargetDependency */ = {
@@ -859,7 +868,7 @@
 /* Begin XCBuildConfiguration section */
 		D500CD2D1CE9EE9000782096 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E01956823E583DAB299DAAD /* Pods-Simplyred.debug.xcconfig */;
+			baseConfigurationReference = 1B339D02C2036C5A9E687FF9 /* Pods-MobrandInterstitialSimplyred.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -867,7 +876,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = Simplyred/Info.plist;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
@@ -882,7 +891,7 @@
 		};
 		D500CD2E1CE9EE9000782096 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 236926F78F37958C8FE08EBE /* Pods-Simplyred.release.xcconfig */;
+			baseConfigurationReference = C8DCBB3AF5B0DFF4D4C2433D /* Pods-MobrandInterstitialSimplyred.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -890,7 +899,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = Simplyred/Info.plist;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
@@ -1063,7 +1072,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D500CD2C1CE9EE9000782096 /* Build configuration list for PBXNativeTarget "Simplyred" */ = {
+		D500CD2C1CE9EE9000782096 /* Build configuration list for PBXNativeTarget "MobrandInterstitialSimplyred" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D500CD2D1CE9EE9000782096 /* Debug */,

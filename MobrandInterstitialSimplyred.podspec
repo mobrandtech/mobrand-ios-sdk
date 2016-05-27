@@ -15,7 +15,7 @@ s.source       = { :git => "https://github.com/mobrandtech/mobrand-ios-sdk.git",
 #s.source_files  = "MobrandAppWall"
 s.source_files = 'Simplyred/*.{swift}'
 s.dependency 'MobrandCore'
-s.frameworks = 'CFNetwork'
+s.frameworks = 'CFNetwork', 'Cosmos', '~> 1.2'
 s.requires_arc = true
 
 s.resource_bundles = {
