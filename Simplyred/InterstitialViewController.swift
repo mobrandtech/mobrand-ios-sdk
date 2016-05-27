@@ -47,8 +47,7 @@ class InterstitialViewController: UIViewController, MobrandInterstitialDelegate,
         imageBg.clipsToBounds = true
         imageBg.alpha = 0.1
         self.infoContainer.addSubview(imageBg)
-        imgStoreLogo.image = UIImage(named:  "store_logo.png", inBundle: NSBundle(forClass: InterstitialViewController.self), compatibleWithTraitCollection: nil)
-        
+        imgStoreLogo.image = UIImage(named:  "store_logo.png", inBundle: BundleUtils.getBundle(), compatibleWithTraitCollection: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(InterstitialViewController.rotated), name: UIDeviceOrientationDidChangeNotification, object: nil)
         
     }
