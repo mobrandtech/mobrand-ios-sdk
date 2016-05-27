@@ -1,15 +1,15 @@
 PODS:
   - Cosmos (1.2.2)
-  - jdjCore (0.0.6)
+  - MobrandCore (0.0.1)
 
 DEPENDENCIES:
   - Cosmos (~> 1.2)
-  - jdjCore
+  - MobrandCore
 
 SPEC CHECKSUMS:
   Cosmos: 87c49100c69d2cb2eebfa4eb8d1e801fe29ff774
-  jdjCore: 49786a6a1c07bc9c3fd66aae16b2be6b84192306
+  MobrandCore: f9e6209c8137597f23fcbe9bae3699f7d81d5a09
 
-PODFILE CHECKSUM: c1fbb4d359fa7e6c37cb3fba5b187239b741173b
+PODFILE CHECKSUM: 111c2a7847a3ce0fd19ce89df199f570932910fe
 
 COCOAPODS: 1.0.0

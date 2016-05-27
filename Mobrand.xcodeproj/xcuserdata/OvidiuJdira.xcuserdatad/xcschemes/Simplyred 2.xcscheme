@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D500CD221CE9EE9000782096"
-               BuildableName = "Simplyred.framework"
-               BlueprintName = "Simplyred"
+               BuildableName = "MobrandInterstitialSimplyred.framework"
+               BlueprintName = "MobrandInterstitialSimplyred"
                ReferencedContainer = "container:Mobrand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D500CD221CE9EE9000782096"
-            BuildableName = "Simplyred.framework"
-            BlueprintName = "Simplyred"
+            BuildableName = "MobrandInterstitialSimplyred.framework"
+            BlueprintName = "MobrandInterstitialSimplyred"
             ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D500CD221CE9EE9000782096"
-            BuildableName = "Simplyred.framework"
-            BlueprintName = "Simplyred"
+            BuildableName = "MobrandInterstitialSimplyred.framework"
+            BlueprintName = "MobrandInterstitialSimplyred"
             ReferencedContainer = "container:Mobrand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
