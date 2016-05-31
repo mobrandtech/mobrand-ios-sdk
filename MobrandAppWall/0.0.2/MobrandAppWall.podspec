@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = "MobrandInterstitialSimplyred"
+s.name         = "MobrandAppWall"
 s.version      = "0.0.2"
 s.summary      = "Summary description"
 s.description  = <<-DESC
@@ -13,14 +13,13 @@ s.platform     = :ios, "8.1"
 s.ios.deployment_target = "8.1"
 s.source       = { :git => "https://github.com/mobrandtech/mobrand-ios-sdk.git", :tag => "0.0.2" }
 #s.source_files  = "MobrandAppWall"
-s.source_files = 'Simplyred/*.{swift}'
+s.source_files = 'MobrandAppWall/*.{swift}'
 s.dependency 'MobrandCore'
-s.dependency 'Cosmos' , '~> 1.2'
 s.frameworks = 'CFNetwork'
 s.requires_arc = true
 
 s.resource_bundles = {
-'MobrandInterstitialSimplyred' => ['MobrandInterstitialSimplyred/*.{xib,png}']
+'MobrandAppWall' => ['MobrandAppWall/*.{xib,png}']
 }
 
 end
