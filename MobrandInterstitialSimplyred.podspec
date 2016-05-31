@@ -20,7 +20,7 @@ s.frameworks = 'CFNetwork'
 s.requires_arc = true
 
 s.resource_bundles = {
-'MobrandInterstitialSimplyred' => ['Simplyred/*.{xib,png}']
+'MobrandInterstitialSimplyred' => ['MobrandInterstitialSimplyred/*.{xib,png}']
 }
 
 end
