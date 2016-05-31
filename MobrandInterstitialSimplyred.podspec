@@ -13,7 +13,7 @@ s.platform     = :ios, "8.1"
 s.ios.deployment_target = "8.1"
 s.source       = { :git => "https://github.com/mobrandtech/mobrand-ios-sdk.git", :tag => "0.0.2" }
 #s.source_files  = "MobrandAppWall"
-s.source_files = 'Simplyred/*.{swift}'
+s.source_files = 'MobrandInterstitialSimplyred/*.{swift}'
 s.dependency 'MobrandCore'
 s.dependency 'Cosmos' , '~> 1.2'
 s.frameworks = 'CFNetwork'
