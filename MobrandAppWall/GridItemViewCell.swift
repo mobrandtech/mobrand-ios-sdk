@@ -11,7 +11,6 @@ import MobrandCore
 
 public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
     var ad: AppWallAd!
-    let myCache = ImageCache(name: "MobrandAppWall")
     @IBOutlet weak var txtTitle: UILabel!
     @IBOutlet weak var imgLogo: UIImageView!
     @IBOutlet weak var progressBar: UIProgressView!
@@ -26,7 +25,6 @@ public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
         self.addGestureRecognizer(tapGestureRecognizer)
         progressBar.hidden = true
         applyTheme()
-       
     }
     
     func modelChange(ad: AppWallAd, progresBarColor: UIColor){
@@ -35,18 +33,16 @@ public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
         ImageLoader.sharedLoader.imageForUrl(ad.icon, completionHandler:{(image: UIImage?, url: String) in
             self.imgLogo.image = image
         })
-//        imgLogo.kf_setImageWithURL(NSURL(string: ad.icon)!,
-//                                   placeholderImage: nil,
-//                                   optionsInfo: [.TargetCache(myCache)])
-        
-        
         txtTitle.text = ad.name
         progressBar.progressTintColor = progresBarColor
         if(!ad.impressed) {
             mobrandCore.addImpression(ad.adid, placementid: "App Wall")
             ad.impressed = true
         }
-        
+    }
+    
+    func reset(){
+        imgLogo.image = UIImage()
     }
     
     func onClick(sender: UITapGestureRecognizer)

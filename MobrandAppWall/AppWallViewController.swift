@@ -116,19 +116,19 @@ class AppWallViewController: UIViewController, AppWallAdsDelegate,  UIPageViewCo
     
     func initPagerView(){
         
-        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+//        dispatch_async(dispatch_get_global_queue(priority, 0)) {
             self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
             self.pageViewController.dataSource = self
             self.pageViewController.delegate = self
             self.pageViewController.view.frame = CGRectMake(0, self.headerContainer.frame.height, self.view.frame.width, self.view.frame.height - self.headerContainer.frame.height)
             let pageContentViewController = self.viewControllerAtIndex(0)
-            dispatch_async(dispatch_get_main_queue()) {
+//            dispatch_async(dispatch_get_main_queue()) {
                 self.pageViewController.setViewControllers([pageContentViewController!], direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
                 self.addChildViewController(self.pageViewController)
                 self.view.addSubview(self.pageViewController.view)
                 self.pageViewController.didMoveToParentViewController(self)
-            }
-        }
+//            }
+//        }
         
         
         

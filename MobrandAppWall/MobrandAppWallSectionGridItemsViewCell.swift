@@ -56,7 +56,7 @@ public class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectio
         backgroundColor = UIColor(rgba: AppWallColors.APP_WALL_BG)
         let frameworkBundle = BundleUtils.getBundle()
         self.gridView.registerNib(UINib(nibName: cellIdentifier, bundle: frameworkBundle), forCellWithReuseIdentifier: cellIdentifier)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(AppWallContentViewController.rotated), name: UIDeviceOrientationDidChangeNotification, object: nil)
+       NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(AppWallContentViewController.rotated), name: UIDeviceOrientationDidChangeNotification, object: nil)
     }
     
     override public func setSelected(selected: Bool, animated: Bool) {
@@ -73,12 +73,13 @@ public class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectio
 
 
     func modelChange(ads: [AppWallAd], progressBarColor: UIColor){
-        self.ads = ads
         self.progressBarColor  = progressBarColor
-//        gridView.reloadData()
+        self.ads = ads
+        gridView.reloadData()
     }
     
     public func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        
         return 1
     }
     
@@ -95,7 +96,8 @@ public class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectio
     
     
     public func collectionView(collectionView: UICollectionView, willDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
-//         CellAnimator.animateCell(cell, withTransform: CellAnimator.TransformTilt, andDuration: 1)
+        let cell : GridItemViewCell = collectionView.dequeueReusableCellWithReuseIdentifier(self.cellIdentifier, forIndexPath: indexPath) as! GridItemViewCell
+        cell.reset()
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
@@ -106,8 +108,24 @@ public class MobrandAppWallSectionGridItemsViewCell: UITableViewCell,UICollectio
     }
     
     
-    
-    
-
+    func  isNewModel(ads: [AppWallAd])->Bool {
+        if self.ads.count == 0 {
+            return true
+        } else  if self.ads.count != ads.count {
+            return true
+        } else {
+            let count = ads.count
+            for i in 0..<count{
+                if ads[i].adid != self.ads[i].adid  {
+                    return true
+                }
+            }
+            
+            return false
+        }
+        
+    }
     
 }
+
+

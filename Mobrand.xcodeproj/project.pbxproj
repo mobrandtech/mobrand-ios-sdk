@@ -7,30 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		103B0B34C62A68600223205F /* Pods_MobrandInterstitialSimplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C400E4BDCA19560F1BCAF6CF /* Pods_MobrandInterstitialSimplyred.framework */; };
-		767D425B3163CC64BBFC1B92 /* Pods_Simplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B3D54CDCFCFF0215FF0974 /* Pods_Simplyred.framework */; };
 		BDBF1B1285180679CE293AA7 /* Pods_SwiftIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9826F2062C98EC7DDBE2827F /* Pods_SwiftIntegration.framework */; };
 		D500CD0A1CE9D05300782096 /* ic_apple_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = D500CD091CE9D05300782096 /* ic_apple_logo_black.png */; };
 		D500CD1A1CE9DDC100782096 /* ic_action_arrow_app_wall_mobrand.png in Resources */ = {isa = PBXBuildFile; fileRef = D500CD191CE9DDC100782096 /* ic_action_arrow_app_wall_mobrand.png */; };
 		D500CD1C1CE9DE5800782096 /* ic_action_games_app_wall_mobrand.png in Resources */ = {isa = PBXBuildFile; fileRef = D500CD1B1CE9DE5800782096 /* ic_action_games_app_wall_mobrand.png */; };
-		D500CD261CE9EE9000782096 /* Simplyred.h in Headers */ = {isa = PBXBuildFile; fileRef = D500CD251CE9EE9000782096 /* Simplyred.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D500CD2A1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */; };
-		D500CD2B1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D500CD381CEA12DE00782096 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D500CD361CEA12DE00782096 /* InterstitialViewController.swift */; };
-		D500CD391CEA12DE00782096 /* InterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D500CD371CEA12DE00782096 /* InterstitialViewController.xib */; };
-		D51801C51CEB779D00F3AA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51801C41CEB779D00F3AA8D /* Images.xcassets */; };
-		D53BAF621CE23F830042DAB8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF551CE23F830042DAB8 /* Image.swift */; };
-		D53BAF631CE23F830042DAB8 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF561CE23F830042DAB8 /* ImageCache.swift */; };
-		D53BAF641CE23F830042DAB8 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF571CE23F830042DAB8 /* ImageDownloader.swift */; };
-		D53BAF651CE23F830042DAB8 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF581CE23F830042DAB8 /* ImagePrefetcher.swift */; };
-		D53BAF661CE23F830042DAB8 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF591CE23F830042DAB8 /* ImageTransition.swift */; };
-		D53BAF671CE23F830042DAB8 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF5A1CE23F830042DAB8 /* ImageView+Kingfisher.swift */; };
-		D53BAF691CE23F830042DAB8 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF5C1CE23F830042DAB8 /* KingfisherManager.swift */; };
-		D53BAF6A1CE23F830042DAB8 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF5D1CE23F830042DAB8 /* KingfisherOptionsInfo.swift */; };
-		D53BAF6B1CE23F830042DAB8 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF5E1CE23F830042DAB8 /* Resource.swift */; };
-		D53BAF6C1CE23F830042DAB8 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF5F1CE23F830042DAB8 /* String+MD5.swift */; };
-		D53BAF6D1CE23F830042DAB8 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF601CE23F830042DAB8 /* ThreadHelper.swift */; };
-		D53BAF6E1CE23F830042DAB8 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF611CE23F830042DAB8 /* UIButton+Kingfisher.swift */; };
 		D53BAF741CE23FB80042DAB8 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF721CE23FB80042DAB8 /* LoadingOverlay.swift */; };
 		D53BAF751CE23FB80042DAB8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF731CE23FB80042DAB8 /* ImageLoader.swift */; };
 		D53BAF771CE23FCB0042DAB8 /* AppWallAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BAF761CE23FCB0042DAB8 /* AppWallAd.swift */; };
@@ -70,36 +50,38 @@
 		D53BB0441CE250BC0042DAB8 /* CustomAppWallViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D53BB0401CE250BC0042DAB8 /* CustomAppWallViewCell.xib */; };
 		D5420E911CEF180800B1AFCE /* Pods_MobrandAppWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC383E9CF4FF2951AD52E6D9 /* Pods_MobrandAppWall.framework */; };
 		D55CE2D71CECBD5B00A0420B /* MobrandAppWall.h in Headers */ = {isa = PBXBuildFile; fileRef = D53BAF281CE23D050042DAB8 /* MobrandAppWall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D56826651CEA238500D852A3 /* store_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D56826641CEA238500D852A3 /* store_logo.png */; };
-		D5BF7BA51CF337F700DB7935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53BAF1F1CE23C220042DAB8 /* Foundation.framework */; };
+		D5742AD11CFD791900988F6F /* MobrandInterstitialSimplyred.h in Headers */ = {isa = PBXBuildFile; fileRef = D5742AD01CFD791900988F6F /* MobrandInterstitialSimplyred.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5742AD51CFD791900988F6F /* MobrandInterstitialSimplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5742ACE1CFD791900988F6F /* MobrandInterstitialSimplyred.framework */; };
+		D5742AD61CFD791900988F6F /* MobrandInterstitialSimplyred.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5742ACE1CFD791900988F6F /* MobrandInterstitialSimplyred.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D5742AE51CFD793400988F6F /* InterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5742ADA1CFD793400988F6F /* InterstitialViewController.xib */; };
+		D5742AE61CFD793400988F6F /* MobrandInterstitialFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742ADB1CFD793400988F6F /* MobrandInterstitialFactory.swift */; };
+		D5742AE71CFD793400988F6F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742ADC1CFD793400988F6F /* UIViewController.swift */; };
+		D5742AE81CFD793400988F6F /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742ADD1CFD793400988F6F /* InterstitialViewController.swift */; };
+		D5742AE91CFD793400988F6F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742ADE1CFD793400988F6F /* ImageLoader.swift */; };
+		D5742AEA1CFD793400988F6F /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742ADF1CFD793400988F6F /* InterstitialAd.swift */; };
+		D5742AEB1CFD793400988F6F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742AE01CFD793400988F6F /* UIColor.swift */; };
+		D5742AED1CFD793400988F6F /* whitecross.png in Resources */ = {isa = PBXBuildFile; fileRef = D5742AE21CFD793400988F6F /* whitecross.png */; };
+		D5742AEE1CFD793400988F6F /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742AE31CFD793400988F6F /* LoadingOverlay.swift */; };
+		D5742AF71CFDB73300988F6F /* store_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D5742AF61CFDB73300988F6F /* store_logo.png */; };
 		D5BF7BA61CF337FC00DB7935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53BAF1F1CE23C220042DAB8 /* Foundation.framework */; };
 		D5BF7BA81CF3389000DB7935 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BF7BA71CF3389000DB7935 /* CFNetwork.framework */; };
-		D5C0D0BB1CEA25FC00B44A5C /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0D0BA1CEA25FC00B44A5C /* InterstitialAd.swift */; };
-		D5C0D0BD1CEA269E00B44A5C /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0D0BC1CEA269E00B44A5C /* LoadingOverlay.swift */; };
-		D5C0D0BF1CEA282F00B44A5C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0D0BE1CEA282F00B44A5C /* ImageLoader.swift */; };
-		D5C0D0C11CEA300200B44A5C /* add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5C0D0C01CEA300200B44A5C /* add_icon.png */; };
-		D5C8FEAA1CEA1396000DEBDB /* MobrandInterstitialFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8FEA91CEA1396000DEBDB /* MobrandInterstitialFactory.swift */; };
-		D5C8FEAD1CEA1419000DEBDB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8FEAC1CEA1419000DEBDB /* UIColor.swift */; };
-		D5C8FEAF1CEA142A000DEBDB /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8FEAE1CEA142A000DEBDB /* UIViewController.swift */; };
-		D5C8FEB21CEA176D000DEBDB /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8FEB11CEA176D000DEBDB /* FloatRatingView.swift */; };
-		D5C8FEB91CEA2044000DEBDB /* whitecross.png in Resources */ = {isa = PBXBuildFile; fileRef = D5C8FEB81CEA2044000DEBDB /* whitecross.png */; };
-		D5DE85861CF70F5E00E4A151 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BF7BA71CF3389000DB7935 /* CFNetwork.framework */; };
+		E9392CE3A4F112238AB5D4A5 /* Pods_MobrandInterstitialSimplyred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C400E4BDCA19560F1BCAF6CF /* Pods_MobrandInterstitialSimplyred.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D500CD281CE9EE9000782096 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D53BAF0B1CE23C000042DAB8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D500CD221CE9EE9000782096;
-			remoteInfo = Simplyred;
-		};
 		D53BB03A1CE2504E0042DAB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D53BAF0B1CE23C000042DAB8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D53BAF251CE23D050042DAB8;
 			remoteInfo = MobrandAppWall;
+		};
+		D5742AD31CFD791900988F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53BAF0B1CE23C000042DAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5742ACD1CFD791900988F6F;
+			remoteInfo = MobrandInterstitialSimplyred;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -110,8 +92,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D5742AD61CFD791900988F6F /* MobrandInterstitialSimplyred.framework in Embed Frameworks */,
 				D53BB0391CE2504E0042DAB8 /* MobrandAppWall.framework in Embed Frameworks */,
-				D500CD2B1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,28 +113,10 @@
 		D500CD091CE9D05300782096 /* ic_apple_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_apple_logo_black.png; sourceTree = "<group>"; };
 		D500CD191CE9DDC100782096 /* ic_action_arrow_app_wall_mobrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_arrow_app_wall_mobrand.png; sourceTree = "<group>"; };
 		D500CD1B1CE9DE5800782096 /* ic_action_games_app_wall_mobrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_games_app_wall_mobrand.png; sourceTree = "<group>"; };
-		D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobrandInterstitialSimplyred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D500CD251CE9EE9000782096 /* Simplyred.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simplyred.h; sourceTree = "<group>"; };
-		D500CD271CE9EE9000782096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D500CD361CEA12DE00782096 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
-		D500CD371CEA12DE00782096 /* InterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterstitialViewController.xib; sourceTree = "<group>"; };
-		D51801C41CEB779D00F3AA8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D53BAF1F1CE23C220042DAB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D53BAF261CE23D050042DAB8 /* MobrandAppWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobrandAppWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53BAF281CE23D050042DAB8 /* MobrandAppWall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobrandAppWall.h; sourceTree = "<group>"; };
 		D53BAF2A1CE23D050042DAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D53BAF551CE23F830042DAB8 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		D53BAF561CE23F830042DAB8 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		D53BAF571CE23F830042DAB8 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		D53BAF581CE23F830042DAB8 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
-		D53BAF591CE23F830042DAB8 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
-		D53BAF5A1CE23F830042DAB8 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		D53BAF5C1CE23F830042DAB8 /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
-		D53BAF5D1CE23F830042DAB8 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		D53BAF5E1CE23F830042DAB8 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		D53BAF5F1CE23F830042DAB8 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
-		D53BAF601CE23F830042DAB8 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
-		D53BAF611CE23F830042DAB8 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		D53BAF721CE23FB80042DAB8 /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
 		D53BAF731CE23FB80042DAB8 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		D53BAF761CE23FCB0042DAB8 /* AppWallAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppWallAd.swift; sourceTree = "<group>"; };
@@ -190,34 +154,26 @@
 		D53BB03E1CE250BC0042DAB8 /* CustomAppWallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAppWallViewController.swift; sourceTree = "<group>"; };
 		D53BB03F1CE250BC0042DAB8 /* CustomAppWallViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAppWallViewCell.swift; sourceTree = "<group>"; };
 		D53BB0401CE250BC0042DAB8 /* CustomAppWallViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAppWallViewCell.xib; sourceTree = "<group>"; };
-		D56826641CEA238500D852A3 /* store_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_logo.png; sourceTree = "<group>"; };
+		D5742ACE1CFD791900988F6F /* MobrandInterstitialSimplyred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobrandInterstitialSimplyred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5742AD01CFD791900988F6F /* MobrandInterstitialSimplyred.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobrandInterstitialSimplyred.h; sourceTree = "<group>"; };
+		D5742AD21CFD791900988F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5742ADA1CFD793400988F6F /* InterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterstitialViewController.xib; sourceTree = "<group>"; };
+		D5742ADB1CFD793400988F6F /* MobrandInterstitialFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobrandInterstitialFactory.swift; sourceTree = "<group>"; };
+		D5742ADC1CFD793400988F6F /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D5742ADD1CFD793400988F6F /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		D5742ADE1CFD793400988F6F /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D5742ADF1CFD793400988F6F /* InterstitialAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
+		D5742AE01CFD793400988F6F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D5742AE21CFD793400988F6F /* whitecross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitecross.png; sourceTree = "<group>"; };
+		D5742AE31CFD793400988F6F /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		D5742AF61CFDB73300988F6F /* store_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_logo.png; sourceTree = "<group>"; };
 		D5BF7BA71CF3389000DB7935 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		D5C0D0BA1CEA25FC00B44A5C /* InterstitialAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
-		D5C0D0BC1CEA269E00B44A5C /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
-		D5C0D0BE1CEA282F00B44A5C /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		D5C0D0C01CEA300200B44A5C /* add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_icon.png; sourceTree = "<group>"; };
-		D5C8FEA91CEA1396000DEBDB /* MobrandInterstitialFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobrandInterstitialFactory.swift; sourceTree = "<group>"; };
-		D5C8FEAC1CEA1419000DEBDB /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		D5C8FEAE1CEA142A000DEBDB /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		D5C8FEB11CEA176D000DEBDB /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
-		D5C8FEB81CEA2044000DEBDB /* whitecross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitecross.png; sourceTree = "<group>"; };
 		FC383E9CF4FF2951AD52E6D9 /* Pods_MobrandAppWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobrandAppWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD104DA8CF7B58F0A11E4B39 /* Pods-SwiftIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftIntegration/Pods-SwiftIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 		FFD27B1E36B92242B2D7CBB8 /* Pods-SwiftIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftIntegration/Pods-SwiftIntegration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D500CD1F1CE9EE9000782096 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5DE85861CF70F5E00E4A151 /* CFNetwork.framework in Frameworks */,
-				D5BF7BA51CF337F700DB7935 /* Foundation.framework in Frameworks */,
-				767D425B3163CC64BBFC1B92 /* Pods_Simplyred.framework in Frameworks */,
-				103B0B34C62A68600223205F /* Pods_MobrandInterstitialSimplyred.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D53BAF221CE23D050042DAB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,8 +189,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53BB0381CE2504E0042DAB8 /* MobrandAppWall.framework in Frameworks */,
-				D500CD2A1CE9EE9000782096 /* MobrandInterstitialSimplyred.framework in Frameworks */,
 				BDBF1B1285180679CE293AA7 /* Pods_SwiftIntegration.framework in Frameworks */,
+				D5742AD51CFD791900988F6F /* MobrandInterstitialSimplyred.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5742ACA1CFD791900988F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9392CE3A4F112238AB5D4A5 /* Pods_MobrandInterstitialSimplyred.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,40 +232,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D500CD241CE9EE9000782096 /* MobrandInterstitialSimplyred */ = {
-			isa = PBXGroup;
-			children = (
-				D5C0D0B91CEA25F100B44A5C /* Model */,
-				D5C8FEAB1CEA1406000DEBDB /* Extensions */,
-				D500CD3A1CEA12ED00782096 /* UI */,
-				D5C8FEB51CEA1F68000DEBDB /* Resources */,
-				D500CD251CE9EE9000782096 /* Simplyred.h */,
-				D500CD271CE9EE9000782096 /* Info.plist */,
-				D5C8FEA91CEA1396000DEBDB /* MobrandInterstitialFactory.swift */,
-			);
-			name = MobrandInterstitialSimplyred;
-			path = Simplyred;
-			sourceTree = "<group>";
-		};
-		D500CD3A1CEA12ED00782096 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				D5C0D0BC1CEA269E00B44A5C /* LoadingOverlay.swift */,
-				D5C8FEB11CEA176D000DEBDB /* FloatRatingView.swift */,
-				D500CD361CEA12DE00782096 /* InterstitialViewController.swift */,
-				D500CD371CEA12DE00782096 /* InterstitialViewController.xib */,
-				D5C0D0BE1CEA282F00B44A5C /* ImageLoader.swift */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
 		D53BAF0A1CE23C000042DAB8 = {
 			isa = PBXGroup;
 			children = (
 				D53BAF1F1CE23C220042DAB8 /* Foundation.framework */,
 				D53BAF271CE23D050042DAB8 /* MobrandAppWall */,
-				D500CD241CE9EE9000782096 /* MobrandInterstitialSimplyred */,
 				D53BB0231CE2503C0042DAB8 /* SwiftIntegration */,
+				D5742ACF1CFD791900988F6F /* MobrandInterstitialSimplyred */,
 				D53BAF151CE23C000042DAB8 /* Products */,
 				4A689DA8090702F46ECAEB94 /* Pods */,
 				BE3669734D061CDA1988AD4A /* Frameworks */,
@@ -313,7 +250,7 @@
 			children = (
 				D53BAF261CE23D050042DAB8 /* MobrandAppWall.framework */,
 				D53BB0221CE2503C0042DAB8 /* SwiftIntegration.app */,
-				D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */,
+				D5742ACE1CFD791900988F6F /* MobrandInterstitialSimplyred.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,13 +258,13 @@
 		D53BAF271CE23D050042DAB8 /* MobrandAppWall */ = {
 			isa = PBXGroup;
 			children = (
-				D53BAFB31CE241E60042DAB8 /* MobrandAppWallFactory.swift */,
 				D53BAFA11CE240A10042DAB8 /* Extensions */,
 				D53BAF781CE23FE90042DAB8 /* Utils */,
 				D53BAF521CE23F540042DAB8 /* UI */,
 				D53BAF511CE23F2F0042DAB8 /* Model */,
 				D53BAFA61CE240C00042DAB8 /* Resources */,
 				D53BAF281CE23D050042DAB8 /* MobrandAppWall.h */,
+				D53BAFB31CE241E60042DAB8 /* MobrandAppWallFactory.swift */,
 				D53BAF2A1CE23D050042DAB8 /* Info.plist */,
 			);
 			path = MobrandAppWall;
@@ -357,28 +294,8 @@
 			children = (
 				D53BAF721CE23FB80042DAB8 /* LoadingOverlay.swift */,
 				D53BAF731CE23FB80042DAB8 /* ImageLoader.swift */,
-				D53BAF541CE23F6D0042DAB8 /* Kingfisher-ImageLoading */,
 			);
 			name = Widgets;
-			sourceTree = "<group>";
-		};
-		D53BAF541CE23F6D0042DAB8 /* Kingfisher-ImageLoading */ = {
-			isa = PBXGroup;
-			children = (
-				D53BAF551CE23F830042DAB8 /* Image.swift */,
-				D53BAF561CE23F830042DAB8 /* ImageCache.swift */,
-				D53BAF571CE23F830042DAB8 /* ImageDownloader.swift */,
-				D53BAF581CE23F830042DAB8 /* ImagePrefetcher.swift */,
-				D53BAF591CE23F830042DAB8 /* ImageTransition.swift */,
-				D53BAF5A1CE23F830042DAB8 /* ImageView+Kingfisher.swift */,
-				D53BAF5C1CE23F830042DAB8 /* KingfisherManager.swift */,
-				D53BAF5D1CE23F830042DAB8 /* KingfisherOptionsInfo.swift */,
-				D53BAF5E1CE23F830042DAB8 /* Resource.swift */,
-				D53BAF5F1CE23F830042DAB8 /* String+MD5.swift */,
-				D53BAF601CE23F830042DAB8 /* ThreadHelper.swift */,
-				D53BAF611CE23F830042DAB8 /* UIButton+Kingfisher.swift */,
-			);
-			name = "Kingfisher-ImageLoading";
 			sourceTree = "<group>";
 		};
 		D53BAF781CE23FE90042DAB8 /* Utils */ = {
@@ -457,45 +374,68 @@
 			path = SwiftIntegration;
 			sourceTree = "<group>";
 		};
-		D5C0D0B91CEA25F100B44A5C /* Model */ = {
+		D5742ACF1CFD791900988F6F /* MobrandInterstitialSimplyred */ = {
 			isa = PBXGroup;
 			children = (
-				D5C0D0BA1CEA25FC00B44A5C /* InterstitialAd.swift */,
+				D5742AF41CFD7A5700988F6F /* Model */,
+				D5742AF31CFD7A4E00988F6F /* Utils */,
+				D5742AF01CFD7A1600988F6F /* UI */,
+				D5742AF11CFD7A2E00988F6F /* Extensions */,
+				D5742AF21CFD7A3A00988F6F /* Resources */,
+				D5742ADB1CFD793400988F6F /* MobrandInterstitialFactory.swift */,
+				D5742AD01CFD791900988F6F /* MobrandInterstitialSimplyred.h */,
+				D5742AD21CFD791900988F6F /* Info.plist */,
 			);
-			name = Model;
+			path = MobrandInterstitialSimplyred;
 			sourceTree = "<group>";
 		};
-		D5C8FEAB1CEA1406000DEBDB /* Extensions */ = {
+		D5742AF01CFD7A1600988F6F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D5C8FEAC1CEA1419000DEBDB /* UIColor.swift */,
-				D5C8FEAE1CEA142A000DEBDB /* UIViewController.swift */,
+				D5742ADD1CFD793400988F6F /* InterstitialViewController.swift */,
+				D5742ADA1CFD793400988F6F /* InterstitialViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D5742AF11CFD7A2E00988F6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5742AE01CFD793400988F6F /* UIColor.swift */,
+				D5742ADC1CFD793400988F6F /* UIViewController.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		D5C8FEB51CEA1F68000DEBDB /* Resources */ = {
+		D5742AF21CFD7A3A00988F6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D51801C41CEB779D00F3AA8D /* Images.xcassets */,
-				D56826641CEA238500D852A3 /* store_logo.png */,
-				D5C0D0C01CEA300200B44A5C /* add_icon.png */,
-				D5C8FEB81CEA2044000DEBDB /* whitecross.png */,
+				D5742AF61CFDB73300988F6F /* store_logo.png */,
+				D5742AE21CFD793400988F6F /* whitecross.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		D5742AF31CFD7A4E00988F6F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5742AE31CFD793400988F6F /* LoadingOverlay.swift */,
+				D5742ADE1CFD793400988F6F /* ImageLoader.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D5742AF41CFD7A5700988F6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5742ADF1CFD793400988F6F /* InterstitialAd.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D500CD201CE9EE9000782096 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D500CD261CE9EE9000782096 /* Simplyred.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D53BAF231CE23D050042DAB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -504,29 +444,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5742ACB1CFD791900988F6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5742AD11CFD791900988F6F /* MobrandInterstitialSimplyred.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D500CD221CE9EE9000782096 /* MobrandInterstitialSimplyred */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D500CD2C1CE9EE9000782096 /* Build configuration list for PBXNativeTarget "MobrandInterstitialSimplyred" */;
-			buildPhases = (
-				5082876B2CB905F277854F54 /* 📦 Check Pods Manifest.lock */,
-				D500CD1E1CE9EE9000782096 /* Sources */,
-				D500CD1F1CE9EE9000782096 /* Frameworks */,
-				D500CD201CE9EE9000782096 /* Headers */,
-				D500CD211CE9EE9000782096 /* Resources */,
-				F946845CB0D1F0D254718E4C /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MobrandInterstitialSimplyred;
-			productName = Simplyred;
-			productReference = D500CD231CE9EE9000782096 /* MobrandInterstitialSimplyred.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D53BAF251CE23D050042DAB8 /* MobrandAppWall */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D53BAF2B1CE23D050042DAB8 /* Build configuration list for PBXNativeTarget "MobrandAppWall" */;
@@ -563,12 +491,32 @@
 			);
 			dependencies = (
 				D53BB03B1CE2504E0042DAB8 /* PBXTargetDependency */,
-				D500CD291CE9EE9000782096 /* PBXTargetDependency */,
+				D5742AD41CFD791900988F6F /* PBXTargetDependency */,
 			);
 			name = SwiftIntegration;
 			productName = SwiftIntegration;
 			productReference = D53BB0221CE2503C0042DAB8 /* SwiftIntegration.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D5742ACD1CFD791900988F6F /* MobrandInterstitialSimplyred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5742AD91CFD791900988F6F /* Build configuration list for PBXNativeTarget "MobrandInterstitialSimplyred" */;
+			buildPhases = (
+				A2ABD246E418C5236E5C663A /* 📦 Check Pods Manifest.lock */,
+				D5742AC91CFD791900988F6F /* Sources */,
+				D5742ACA1CFD791900988F6F /* Frameworks */,
+				D5742ACB1CFD791900988F6F /* Headers */,
+				D5742ACC1CFD791900988F6F /* Resources */,
+				87FC9BA394227BA3128EF962 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobrandInterstitialSimplyred;
+			productName = MobrandInterstitialSimplyred;
+			productReference = D5742ACE1CFD791900988F6F /* MobrandInterstitialSimplyred.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -583,13 +531,13 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = oJdira;
 				TargetAttributes = {
-					D500CD221CE9EE9000782096 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
 					D53BAF251CE23D050042DAB8 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					D53BB0211CE2503C0042DAB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D5742ACD1CFD791900988F6F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -608,25 +556,13 @@
 			projectRoot = "";
 			targets = (
 				D53BAF251CE23D050042DAB8 /* MobrandAppWall */,
-				D500CD221CE9EE9000782096 /* MobrandInterstitialSimplyred */,
+				D5742ACD1CFD791900988F6F /* MobrandInterstitialSimplyred */,
 				D53BB0211CE2503C0042DAB8 /* SwiftIntegration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D500CD211CE9EE9000782096 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5C8FEB91CEA2044000DEBDB /* whitecross.png in Resources */,
-				D51801C51CEB779D00F3AA8D /* Images.xcassets in Resources */,
-				D500CD391CEA12DE00782096 /* InterstitialViewController.xib in Resources */,
-				D5C0D0C11CEA300200B44A5C /* add_icon.png in Resources */,
-				D56826651CEA238500D852A3 /* store_logo.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D53BAF241CE23D050042DAB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,6 +589,16 @@
 				D53BB0441CE250BC0042DAB8 /* CustomAppWallViewCell.xib in Resources */,
 				D53BB02C1CE2503C0042DAB8 /* Assets.xcassets in Resources */,
 				D53BB02A1CE2503C0042DAB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5742ACC1CFD791900988F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5742AE51CFD793400988F6F /* InterstitialViewController.xib in Resources */,
+				D5742AED1CFD793400988F6F /* whitecross.png in Resources */,
+				D5742AF71CFDB73300988F6F /* store_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +650,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobrandAppWall/Pods-MobrandAppWall-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5082876B2CB905F277854F54 /* 📦 Check Pods Manifest.lock */ = {
+		87FC9BA394227BA3128EF962 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobrandInterstitialSimplyred/Pods-MobrandInterstitialSimplyred-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2ABD246E418C5236E5C663A /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -749,39 +710,9 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftIntegration/Pods-SwiftIntegration-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F946845CB0D1F0D254718E4C /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobrandInterstitialSimplyred/Pods-MobrandInterstitialSimplyred-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D500CD1E1CE9EE9000782096 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5C8FEAA1CEA1396000DEBDB /* MobrandInterstitialFactory.swift in Sources */,
-				D5C8FEAD1CEA1419000DEBDB /* UIColor.swift in Sources */,
-				D5C8FEAF1CEA142A000DEBDB /* UIViewController.swift in Sources */,
-				D5C8FEB21CEA176D000DEBDB /* FloatRatingView.swift in Sources */,
-				D5C0D0BD1CEA269E00B44A5C /* LoadingOverlay.swift in Sources */,
-				D5C0D0BB1CEA25FC00B44A5C /* InterstitialAd.swift in Sources */,
-				D5C0D0BF1CEA282F00B44A5C /* ImageLoader.swift in Sources */,
-				D500CD381CEA12DE00782096 /* InterstitialViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D53BAF211CE23D050042DAB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -794,28 +725,16 @@
 				D53BAF8A1CE2402F0042DAB8 /* AppWallContentViewController.swift in Sources */,
 				D53BAF811CE23FF90042DAB8 /* UiObjModelContainer.swift in Sources */,
 				D53BAF801CE23FF90042DAB8 /* AdsType.swift in Sources */,
-				D53BAF6D1CE23F830042DAB8 /* ThreadHelper.swift in Sources */,
 				D53BAF9D1CE2407F0042DAB8 /* GridItemViewCell.swift in Sources */,
 				D53BAFB41CE241E60042DAB8 /* MobrandAppWallFactory.swift in Sources */,
 				D53BAF751CE23FB80042DAB8 /* ImageLoader.swift in Sources */,
-				D53BAF6B1CE23F830042DAB8 /* Resource.swift in Sources */,
-				D53BAF6A1CE23F830042DAB8 /* KingfisherOptionsInfo.swift in Sources */,
 				D53BAF9F1CE2407F0042DAB8 /* AppWallBrandViewCell.swift in Sources */,
-				D53BAF631CE23F830042DAB8 /* ImageCache.swift in Sources */,
-				D53BAF691CE23F830042DAB8 /* KingfisherManager.swift in Sources */,
 				D53BAF8C1CE2402F0042DAB8 /* AppWallViewController.swift in Sources */,
 				D53BAFA41CE240A90042DAB8 /* UIColor.swift in Sources */,
-				D53BAF661CE23F830042DAB8 /* ImageTransition.swift in Sources */,
-				D53BAF671CE23F830042DAB8 /* ImageView+Kingfisher.swift in Sources */,
-				D53BAF6E1CE23F830042DAB8 /* UIButton+Kingfisher.swift in Sources */,
-				D53BAF641CE23F830042DAB8 /* ImageDownloader.swift in Sources */,
-				D53BAF6C1CE23F830042DAB8 /* String+MD5.swift in Sources */,
 				D53BAF831CE23FF90042DAB8 /* AnimateUtil.swift in Sources */,
 				D53BAF9B1CE2407F0042DAB8 /* MobrandAppWallSectionGridItemsViewCell.swift in Sources */,
 				D53BAFA51CE240A90042DAB8 /* UIViewController.swift in Sources */,
 				D53BAF741CE23FB80042DAB8 /* LoadingOverlay.swift in Sources */,
-				D53BAF621CE23F830042DAB8 /* Image.swift in Sources */,
-				D53BAF651CE23F830042DAB8 /* ImagePrefetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,18 +750,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5742AC91CFD791900988F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5742AE71CFD793400988F6F /* UIViewController.swift in Sources */,
+				D5742AEB1CFD793400988F6F /* UIColor.swift in Sources */,
+				D5742AE61CFD793400988F6F /* MobrandInterstitialFactory.swift in Sources */,
+				D5742AEA1CFD793400988F6F /* InterstitialAd.swift in Sources */,
+				D5742AEE1CFD793400988F6F /* LoadingOverlay.swift in Sources */,
+				D5742AE91CFD793400988F6F /* ImageLoader.swift in Sources */,
+				D5742AE81CFD793400988F6F /* InterstitialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D500CD291CE9EE9000782096 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D500CD221CE9EE9000782096 /* MobrandInterstitialSimplyred */;
-			targetProxy = D500CD281CE9EE9000782096 /* PBXContainerItemProxy */;
-		};
 		D53BB03B1CE2504E0042DAB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D53BAF251CE23D050042DAB8 /* MobrandAppWall */;
 			targetProxy = D53BB03A1CE2504E0042DAB8 /* PBXContainerItemProxy */;
+		};
+		D5742AD41CFD791900988F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5742ACD1CFD791900988F6F /* MobrandInterstitialSimplyred */;
+			targetProxy = D5742AD31CFD791900988F6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -866,51 +799,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D500CD2D1CE9EE9000782096 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B339D02C2036C5A9E687FF9 /* Pods-MobrandInterstitialSimplyred.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.Mobrand.interstitial.Simplyred;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SEPARATE_SYMBOL_EDIT = NO;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D500CD2E1CE9EE9000782096 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8DCBB3AF5B0DFF4D4C2433D /* Pods-MobrandInterstitialSimplyred.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.Mobrand.interstitial.Simplyred;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SEPARATE_SYMBOL_EDIT = NO;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		D53BAF1A1CE23C000042DAB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1069,18 +957,48 @@
 			};
 			name = Release;
 		};
+		D5742AD71CFD791900988F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B339D02C2036C5A9E687FF9 /* Pods-MobrandInterstitialSimplyred.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobrandInterstitialSimplyred/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.Mobrand.interstitial.Simplyred.MobrandInterstitialSimplyred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5742AD81CFD791900988F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DCBB3AF5B0DFF4D4C2433D /* Pods-MobrandInterstitialSimplyred.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobrandInterstitialSimplyred/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.Mobrand.interstitial.Simplyred.MobrandInterstitialSimplyred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D500CD2C1CE9EE9000782096 /* Build configuration list for PBXNativeTarget "MobrandInterstitialSimplyred" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D500CD2D1CE9EE9000782096 /* Debug */,
-				D500CD2E1CE9EE9000782096 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D53BAF0E1CE23C000042DAB8 /* Build configuration list for PBXProject "Mobrand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1104,6 +1022,15 @@
 			buildConfigurations = (
 				D53BB0311CE2503C0042DAB8 /* Debug */,
 				D53BB0321CE2503C0042DAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5742AD91CFD791900988F6F /* Build configuration list for PBXNativeTarget "MobrandInterstitialSimplyred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5742AD71CFD791900988F6F /* Debug */,
+				D5742AD81CFD791900988F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

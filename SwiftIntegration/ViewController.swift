@@ -8,7 +8,7 @@
 
 import UIKit
 import MobrandAppWall
-import Simplyred
+import MobrandInterstitialSimplyred
 
 class ViewController: UIViewController {
 
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func OnClickInterstitial(sender: AnyObject) {
-         MobrandInterstitialFactory.sharedInstance.createAppWall(self, placementId: "test")
+         MobrandInterstitialFactory.sharedInstance.createInterstitial(self, placementId: "test")
     }
     
     @IBAction func onClick(sender: AnyObject) {

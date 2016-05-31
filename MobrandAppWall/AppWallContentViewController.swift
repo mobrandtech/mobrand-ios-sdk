@@ -18,6 +18,8 @@ class AppWallContentViewController: UIViewController, UITableViewDataSource, UIT
     let sectionGridItemsIdentifier = "MobrandAppWallSectionGridItemsViewCell"
     let appWallBrandViewCellIdentifier = "AppWallBrandViewCell"
     var cellSectionSize: [Int: Int] = [Int: Int]()
+    var cells: [Int: MobrandAppWallSectionGridItemsViewCell] = [Int: MobrandAppWallSectionGridItemsViewCell] ()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,9 +76,15 @@ class AppWallContentViewController: UIViewController, UITableViewDataSource, UIT
                 sectionTitleCell.modelChange(sectionModel.title)
                 return sectionTitleCell;
             } else {
-                let sectionTitleCell = tableView.dequeueReusableCellWithIdentifier(sectionGridItemsIdentifier, forIndexPath: indexPath) as! MobrandAppWallSectionGridItemsViewCell;
-                sectionTitleCell.modelChange(sectionModel.list, progressBarColor: getProgresBarColor())
-                return sectionTitleCell;
+//                let sectionTitleCell = tableView.dequeueReusableCellWithIdentifier(sectionGridItemsIdentifier) as! MobrandAppWallSectionGridItemsViewCell;
+                if(cells[row] == nil){
+                    let sectionTitleCell = UINib(nibName: sectionGridItemsIdentifier,bundle:  BundleUtils.getBundle()).instantiateWithOwner(nil, options: nil)[0] as! MobrandAppWallSectionGridItemsViewCell
+                    sectionTitleCell.modelChange(sectionModel.list, progressBarColor: getProgresBarColor())
+                    cells.updateValue(sectionTitleCell, forKey: row)
+                    return sectionTitleCell;
+                } else {
+                    return cells[row]!
+                }
             }
             
         } else {

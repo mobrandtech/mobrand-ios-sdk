@@ -12,12 +12,6 @@ import UIKit
 
 class PhoneUtils {
     
-    static let font_bold = "BrandonGrotesque-Bold"
-    static let font_black = "BrandonGrotesque-Black"
-    static let font_medium = "BrandonGrotesqueMedium"
-    static let font_regular = "BrandonGrotesqueRegular"
-    
-    
     class func isConnectedToNetwork() -> Bool {
         
         var zeroAddress = sockaddr_in()
@@ -53,15 +47,6 @@ class PhoneUtils {
     
     class func isPortraight()->Bool{
         return !isLandscape()
-    }
-   class func printFonts() {
-        let fontFamilyNames = UIFont.familyNames()
-        for familyName in fontFamilyNames {
-            print("------------------------------")
-            print("Font Family Name = [\(familyName)]")
-            let names = UIFont.fontNamesForFamilyName(familyName)
-            print("Font Names = [\(names)]")
-        }
     }
 }
 

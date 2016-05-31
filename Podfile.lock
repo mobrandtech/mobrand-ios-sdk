@@ -1,15 +1,19 @@
 PODS:
-  - Cosmos (1.2.2)
-  - MobrandCore (0.0.1)
+  - Cosmos (1.2.3)
+  - MobrandCore (0.0.2)
 
 DEPENDENCIES:
   - Cosmos (~> 1.2)
-  - MobrandCore
+  - MobrandCore (from `../MobrandCore`)
+
+EXTERNAL SOURCES:
+  MobrandCore:
+    :path: ../MobrandCore
 
 SPEC CHECKSUMS:
-  Cosmos: 87c49100c69d2cb2eebfa4eb8d1e801fe29ff774
-  MobrandCore: f9e6209c8137597f23fcbe9bae3699f7d81d5a09
+  Cosmos: efddd01b729956ad6335bc58bc92e5735a1d12a3
+  MobrandCore: c8367a396c090434582f513944e477a592cc4791
 
-PODFILE CHECKSUM: 111c2a7847a3ce0fd19ce89df199f570932910fe
+PODFILE CHECKSUM: 823654a15837ccd580e60a7fe852f8833b5781dc
 
 COCOAPODS: 1.0.0
