@@ -17,7 +17,7 @@ public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
     var webView: UIWebView!
     var progressBarTimer:NSTimer!
     let mobrandCore =  MobrandCore.getInstance()
-    
+    var isClicked = false
     
     override public func awakeFromNib() {
         super.awakeFromNib()
@@ -47,9 +47,12 @@ public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
     
     func onClick(sender: UITapGestureRecognizer)
     {
-        self.progressBarTimer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: #selector(GridItemViewCell.updateProgressBar), userInfo: nil, repeats: true)
-        progressBar.hidden = false
-        mobrandCore.click(ad.adid, placementid: "App Wall", delegate: self)
+        if !isClicked {
+            isClicked = true
+            self.progressBarTimer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: #selector(GridItemViewCell.updateProgressBar), userInfo: nil, repeats: true)
+            progressBar.hidden = false
+            mobrandCore.click(ad.adid, placementid: "App Wall", delegate: self)
+        }
     }
     
     func updateProgressBar(){
@@ -68,9 +71,15 @@ public class GridItemViewCell: UICollectionViewCell, MobrandClickDelegate {
     
     public func  onMobrandClickReady() {
         progressBar.hidden = true
+        isClicked = false
+        self.progressBarTimer.invalidate()
+        self.progressBarTimer = nil
     }
     public func onMobrandClickError(error: String) {
         progressBar.hidden = true
+        isClicked = false
+        self.progressBarTimer.invalidate()
+        self.progressBarTimer = nil
     }
     
 }
