@@ -23,6 +23,12 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0k5-60-MtZ">
+                    <rect key="frame" x="8" y="289" width="584" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DFx-ps-qa0">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                     <subviews>
@@ -108,6 +114,7 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-Ou-u6d">
                                     <rect key="frame" x="8" y="8" width="34" height="34"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <state key="normal" image="ic_action_games_app_wall_mobrand.png"/>
                                     <connections>
                                         <action selector="onSelectGames:" destination="-1" eventType="touchUpInside" id="E4G-JH-RHT"/>
@@ -121,21 +128,21 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="8CX-5g-Foz" firstAttribute="leading" secondItem="LRr-F1-oBp" secondAttribute="leading" id="3Ey-18-umJ"/>
-                                <constraint firstItem="8CX-5g-Foz" firstAttribute="top" secondItem="cVc-Ou-u6d" secondAttribute="bottom" constant="3" id="8PX-SC-ccj"/>
                                 <constraint firstAttribute="trailing" secondItem="8CX-5g-Foz" secondAttribute="trailing" id="Lex-2c-jb7"/>
+                                <constraint firstItem="cVc-Ou-u6d" firstAttribute="leading" secondItem="LRr-F1-oBp" secondAttribute="leading" constant="8" id="MpS-7m-ifT"/>
                                 <constraint firstAttribute="bottom" secondItem="8CX-5g-Foz" secondAttribute="bottom" constant="3" id="RLd-td-jOH"/>
+                                <constraint firstItem="cVc-Ou-u6d" firstAttribute="top" secondItem="LRr-F1-oBp" secondAttribute="top" constant="8" id="ZSc-qV-Sok"/>
                                 <constraint firstAttribute="width" constant="50" id="eLg-WB-hDd"/>
-                                <constraint firstItem="cVc-Ou-u6d" firstAttribute="leading" secondItem="LRr-F1-oBp" secondAttribute="leading" constant="8" id="gjt-Bf-Aq7"/>
                                 <constraint firstAttribute="height" constant="50" id="kW6-Rp-weE"/>
-                                <constraint firstItem="cVc-Ou-u6d" firstAttribute="top" secondItem="LRr-F1-oBp" secondAttribute="top" constant="8" id="nRg-R1-Fxu"/>
-                                <constraint firstAttribute="trailing" secondItem="cVc-Ou-u6d" secondAttribute="trailing" constant="8" id="sbo-sS-vKe"/>
+                                <constraint firstItem="8CX-5g-Foz" firstAttribute="top" secondItem="cVc-Ou-u6d" secondAttribute="bottom" constant="3" id="nnq-1b-usW"/>
+                                <constraint firstAttribute="trailing" secondItem="cVc-Ou-u6d" secondAttribute="trailing" constant="8" id="wzi-6d-9iP"/>
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="0EH-0e-paq" firstAttribute="top" secondItem="DFx-ps-qa0" secondAttribute="top" id="3fe-2j-WxK"/>
                         <constraint firstItem="LRr-F1-oBp" firstAttribute="leading" secondItem="0EH-0e-paq" secondAttribute="trailing" id="7Dj-o0-wvN"/>
@@ -158,12 +165,6 @@
                         <constraint firstItem="LRr-F1-oBp" firstAttribute="height" secondItem="0EH-0e-paq" secondAttribute="height" id="thA-Fh-vE9"/>
                     </constraints>
                 </view>
-                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0k5-60-MtZ">
-                    <rect key="frame" x="8" y="289" width="584" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -179,7 +180,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="219" y="360"/>
+            <point key="canvasLocation" x="264" y="356"/>
         </view>
     </objects>
     <resources>
