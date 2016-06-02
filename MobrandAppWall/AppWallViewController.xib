@@ -128,7 +128,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="8CX-5g-Foz" firstAttribute="leading" secondItem="LRr-F1-oBp" secondAttribute="leading" id="3Ey-18-umJ"/>
                                 <constraint firstAttribute="trailing" secondItem="8CX-5g-Foz" secondAttribute="trailing" id="Lex-2c-jb7"/>

@@ -102,36 +102,29 @@ class AppWallViewController: UIViewController, AppWallAdsDelegate,  UIPageViewCo
     }
     
     func initHeader(){
-        if(modelContainer.getPageModel(AdsType.ALL.rawValue).sections.count > 0){
+//        if(modelContainer.getPageModel(AdsType.ALL.rawValue).sections.count > 0){
             AnimateUtil.animteFadeIn(allContainer, duration: 0.2, delay: 0)
-        }
-        if(modelContainer.getPageModel(AdsType.GAMES.rawValue).sections.count > 0){
+//        }
+//        if(modelContainer.getPageModel(AdsType.GAMES.rawValue).sections.count > 0){
             AnimateUtil.animteFadeIn(gamesContainer, duration: 0.2, delay: 0.05)
-        }
+//        }
         
-        if(modelContainer.getPageModel(AdsType.APPS.rawValue).sections.count > 0){
+//        if(modelContainer.getPageModel(AdsType.APPS.rawValue).sections.count > 0){
             AnimateUtil.animteFadeIn(iosContainer, duration: 0.2, delay: 0.1)
-        }
+//        }
     }
     
     func initPagerView(){
         
-//        dispatch_async(dispatch_get_global_queue(priority, 0)) {
             self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
             self.pageViewController.dataSource = self
             self.pageViewController.delegate = self
             self.pageViewController.view.frame = CGRectMake(0, self.headerContainer.frame.height, self.view.frame.width, self.view.frame.height - self.headerContainer.frame.height)
             let pageContentViewController = self.viewControllerAtIndex(0)
-//            dispatch_async(dispatch_get_main_queue()) {
                 self.pageViewController.setViewControllers([pageContentViewController!], direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
                 self.addChildViewController(self.pageViewController)
                 self.view.addSubview(self.pageViewController.view)
                 self.pageViewController.didMoveToParentViewController(self)
-//            }
-//        }
-        
-        
-        
     }
 
     @IBAction func onBackPressed(sender: AnyObject) {
