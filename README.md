@@ -1,1 +1,1 @@
-Please check Wiki for Integration Process
+Please check [Wiki](/wiki) for Integration Process
